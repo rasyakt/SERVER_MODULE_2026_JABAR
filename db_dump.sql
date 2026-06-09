@@ -141,8 +141,8 @@ INSERT INTO `categories` (`id`, `name`, `icon`, `color`, `type`, `created_at`, `
 -- Users (password = "password" hashed using bcrypt)
 -- Hash: $2y$12$TKh8H1.PFbuSpX6Z8.7T1OL3tBeFkO8lMb2wq.X9RKZGXf9RXbq7K
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Budi', 'budi@webtech.id', NULL, '$2y$12$TKh8H1.PFbuSpX6Z8.7T1OL3tBeFkO8lMb2wq.X9RKZGXf9RXbq7K', NULL, '2025-07-11 16:01:38', '2025-07-11 16:01:38'),
-(2, 'Dedi', 'dedi@webtech.id', NULL, '$2y$12$TKh8H1.PFbuSpX6Z8.7T1OL3tBeFkO8lMb2wq.X9RKZGXf9RXbq7K', NULL, '2025-07-11 16:01:46', '2025-07-11 16:01:46');
+(1, 'Budi', 'budi@webtech.id', NULL, '$2y$12$NsA6Mj.9/WU6kvMZiFKYpOj6h5H7OPPkfjsFit06np8ZZxInXdvjS', NULL, '2025-07-11 16:01:38', '2025-07-11 16:01:38'),
+(2, 'Dedi', 'dedi@webtech.id', NULL, '$2y$12$NsA6Mj.9/WU6kvMZiFKYpOj6h5H7OPPkfjsFit06np8ZZxInXdvjS', NULL, '2025-07-11 16:01:46', '2025-07-11 16:01:46');
 
 -- Wallets
 INSERT INTO `wallets` (`id`, `user_id`, `name`, `currency_code`, `created_at`, `updated_at`, `deleted_at`) VALUES
